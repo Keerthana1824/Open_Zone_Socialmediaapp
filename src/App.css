@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 200px;
+  background-color: slateblue;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar .links {
+  text-align: center;
+  margin-right: 50px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid white;
+  padding-bottom: 2px;
+  margin: 10px;
+}
+
+.navbar .user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.user p {
+  font-size: 15px;
+  margin-right: 10px;
+  color: white;
+}
+.user img {
+  font-size: 15px;
+  border-radius: 50%;
+}
+
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+.create-post {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+form {
+ 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 20px;
+  width: 320px;
+  border-radius: 7px;
+  backdrop-filter: blur(5px);
+  background-color: #f4fbf7fe;
+  overflow: hidden;
+  border-color: #02441ffe;
+  border-width: 5px;
+}
+
+input,
+textarea {
+  padding: 20px 20px;
+  margin: 3px 8px 16px 8px;
+  background-color: rgba(222, 239, 248, 0.877);
+  border: 0px transparent;
+  border-radius: 5px;
+  color: rgb(97, 4, 184);
+  font-size: 75px;
+  z-index: 1;
+}
+
+.submitForm:hover {
+  cursor: pointer;
+}
